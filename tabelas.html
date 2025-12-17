@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Tabelas</h1>
+
+    <!--
+        table -> tabela
+        tr -> Table row (linha da tabela)
+        td -> Table Data (dados da tabela) *Table Cell (células da tabela)
+        th -> Table Header (cabeçalho da tabela) 
+    -->
+
+    <!--Não utiilizar o border, apenasr para fins de estudo
+        Mais para frente, estaremos utilizando o CSS-->
+
+    <table border="1">
+        <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Notebook</td>
+            <td>1</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>Tablet</td>
+            <td>2</td>
+            <td>20000</td>
+        </tr>
+
+        <!--
+            colspan -> Extensão de coluna
+            rowspan -> Extensão de linha
+        -->
+
+        <tr>
+            <td colspan="2">Desconto</td>
+            <td rowspan="2">Desconto</td>
+        </tr>
+        <tr>
+            <td>Tablet</td>
+            <td>2</td>
+            <td>20000</td>
+        </tr>
+
+    </table>
+
+    
+</body>
+</html>
